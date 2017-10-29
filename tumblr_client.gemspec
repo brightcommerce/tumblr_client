@@ -12,9 +12,9 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'webmock'
   gem.add_development_dependency 'simplecov'
-  gem.authors = ['John Bunting', 'John Crepezzi']
+  gem.authors = ['John Bunting', 'John Crepezzi', 'kirillshevch', 'bezrukavyi']
   gem.description = %q{A Ruby wrapper for the Tumblr v2 API}
-  gem.email = ['codingjester@gmail.com', 'john@crepezzi.com']
+  gem.email = ['codingjester@gmail.com', 'john@crepezzi.com', 'hello@kirillshevch.com', 'yaroslav.bezrukavyi@gmail.com']
   gem.executables = `git ls-files -- bin/*`.split("\n").map{|f| File.basename(f)}
   gem.files = `git ls-files`.split("\n")
   gem.homepage = "http://github.com/tumblr/tumblr_client"
